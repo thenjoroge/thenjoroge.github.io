@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the njoroge</title>
+    <meta name="description" content="Personal website of Alex Johnson - Designer, Developer, and Creative Enthusiast">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">The Njoroge</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#about" class="nav-link active">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="theme-toggle" id="themeToggle">
+                <span class="theme-icon">🌙</span>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="greeting">
+                        <h1 class="main-title">
+                            Who is <br>
+                            <span class="highlight">Njoroge</span>?
+                        </h1>
+                        <p class="intro-text">
+                            To be honest I’m so tempted to answer that question by saying  “I’m him”
+                            but for the sake of being professional I’ll refrain from saying it. 
+                               <br>  I’ve always found introducing oneself to be daunting  task, how can words 
+                                do justice to the complex aspects of a person, some of which are not known even 
+                               to them. At the same time I think I’d wake up in a mental facility if when told 
+                               to introduce myself I was like “ I am the universe experiencing myself in  
+                               a form forged from dust liberated from dying stars and nourished by successors
+                                of said stars." I think the best I can do is invite you to join me as I observe  
+                                Njoroge unfold.
+                        
+                        </p>
+                    </div>
+                    
+                    <div class="bio-section">
+                        <h2 class="section-subtitle">A bit about me</h2>
+                        <p class="bio-text">
+                        I'm passionate about creating and finding expression in any canvas that life
+                         offers me.
+                        </p>
+ 
+                    </div>
+
+                    <div class="fun-facts">
+                        <h3 class="facts-title">Fun facts about me</h3>
+                        <div class="facts-grid">
+                            <div class="fact-item">
+                                <div class="fact-icon">☕</div>
+                                <div class="fact-text">
+                                    <strong>Great cook</strong>
+                                    <span>My pancakes are to die for</span>
+                                </div>
+                            </div>
+                            <div class="fact-item">
+                                <div class="fact-icon">📚</div>
+                                <div class="fact-text">
+                                    <strong>Brocken sense of humor</strong>
+                                    <span>Currently reading "Atomic Habits"</span>
+                                </div>
+                            </div>
+                            <div class="fact-item">
+                                <div class="fact-icon">🎸</div>
+                                <div class="fact-text">
+                                    <strong>Addicted to music</strong>
+                                    <span>I think the only thing standing between me and insanity is music</span>
+                                </div>
+                            </div>
+                            <div class="fact-item">
+                                <div class="fact-icon">🌱</div>
+                                <div class="fact-text">
+                                    <strong>Bald</strong>
+                                    <span>I think it'simportant to mention that</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Let's Chat</a>
+                    </div>
+                </div>
+
+                <div class="about-visual">
+                    <div class="profile-card">
+                        <div class="profile-image">
+                            <img src="photos/pfp3.jpg" alt="njoroge" id="profileImg">
+                            <div class="image-overlay">
+                                <div class="status-indicator">
+                                    <div class="status-dot"></div>
+                                    <span>Available for projects</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="profile-info">
+                            <h3>the njoroge</h3>
+                            <p>Designer & Developer</p>
+                            <div class="social-links">
+                                <a href="#" class="social-link" title="LinkedIn">💼</a>
+                                <a href="#" class="social-link" title="GitHub">🐱</a>
+                                <a href="#" class="social-link" title="Twitter">🐦</a>
+                                <a href="#" class="social-link" title="Instagram">📷</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="floating-elements">
+                        <div class="floating-shape shape-1">✨</div>
+                        <div class="floating-shape shape-2">🎨</div>
+                        <div class="floating-shape shape-3">💻</div>
+                        <div class="floating-shape shape-4">📱</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Things I'm passionate about</h2>
+                <p class="section-description">
+                    From side projects to hobbies, here's what keeps me busy and excited
+                </p>
+            </div>
+
+            <div class="filter-tabs">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+                <button class="filter-btn" data-filter="coding">Coding</button>
+                <button class="filter-btn" data-filter="photography">Photography</button>
+                <button class="filter-btn" data-filter="hobby">Hobbies</button>
+            </div>
+
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projects will be populated by JavaScript -->
+            </div>
+
+            <div class="load-more-container">
+                <button class="btn btn-outline" id="loadMoreBtn">Load More Projects</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Visual moments</h2>
+                <p class="section-description">
+                    A collection of photos, designs, and creative experiments
+                </p>
+            </div>
+
+            <div class="gallery-filters">
+                <button class="gallery-filter active" data-category="all">All</button>
+                <button class="gallery-filter" data-category="photography">Photography</button>
+                <button class="gallery-filter" data-category="design">Design Work</button>
+                <button class="gallery-filter" data-category="travel">Travel</button>
+                <button class="gallery-filter" data-category="lifestyle">Lifestyle</button>
+            </div>
+
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- Gallery items will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-text">
+                    <h2 class="section-title">Let's grab coffee ☕</h2>
+                    <p class="contact-description">
+                        I'm always excited to meet new people and discuss interesting projects. 
+                        Whether you want to collaborate, need some advice, or just want to chat 
+                        about design and technology, I'd love to hear from you!
+                    </p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">📧</div>
+                            <div class="method-info">
+                                <h3>Email</h3>
+                                <p>hello@alexjohnson.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon">💬</div>
+                            <div class="method-info">
+                                <h3>Let's connect</h3>
+                                <p>Available for freelance projects</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required 
+                                placeholder="Tell me about your project or just say hi!"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            Send Message ✨
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>Made with ❤️ and lots of coffee by njoroge</p>
+                    <p>be sure to check out my other website  <a href="stripes.com">stripes.com</a>  </p>
+                    <p class="footer-note">Thanks for stopping by!</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#gallery">Gallery</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Gallery Modal -->
+    <div class="gallery-modal" id="galleryModal">
+        <div class="modal-overlay" id="modalOverlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <button class="modal-nav modal-prev" id="modalPrev">‹</button>
+            <button class="modal-nav modal-next" id="modalNext">›</button>
+            <div class="modal-image-container">
+                <img src="/placeholder.svg" alt="" id="modalImage">
+            </div>
+            <div class="modal-info">
+                <h3 id="modalTitle"></h3>
+                <p id="modalDescription"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Success Message -->
+    <div class="success-message" id="successMessage">
+        <div class="success-content">
+            <div class="success-icon">✅</div>
+            <h3>Message sent!</h3>
+            <p>Thanks for reaching out. I'll get back to you soon!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
