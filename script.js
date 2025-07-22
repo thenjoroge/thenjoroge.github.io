@@ -81,7 +81,7 @@ const projectsData = [
         description: "A mobile app concept for plant enthusiasts to track watering schedules, growth progress, and care tips.",
         tags: ["design", "hobby"],
         category: ["design", "hobby"],
-        icon: "🌱",
+        icon: "🙂‍↕️",
         links: {
             figma: "#",
             prototype: "#"
