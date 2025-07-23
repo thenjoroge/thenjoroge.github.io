@@ -1,7 +1,7 @@
 // Personal Website JavaScript
 
 // Project Data
-/*const projectsData = [
+const projectsData = [
     {
         id: 1,
         title: "Personal Portfolio Website",
@@ -99,7 +99,7 @@
             prints: "#"
         }
     }
-];*/
+];
 
 // Gallery Data
 const galleryData = [
